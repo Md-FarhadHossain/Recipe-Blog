@@ -11,3 +11,11 @@
     }
 }
 /* Header responsive end */
+
+/* Hero image */
+@media screen and (max-width: 768px) {
+    .hero_image img {
+        height: auto !important;
+    }
+}
+/* Hero image end */
