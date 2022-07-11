@@ -17,3 +17,34 @@ body {
 h1, h2, h3 {
     font-family: 'Playfair Display', serif;
 }
+
+/* Header */
+.container {
+    width: 980px;
+    margin: auto;
+    max-width: 100%;
+}
+
+.hader_desc p {
+    font-size: .8rem;
+    text-decoration: inherit;
+    font-style: italic;
+    font-weight: 500;
+    color: #4F4F4F;
+    margin-top: 1rem;
+}
+
+.header_content {
+    width:50%;
+}
+.hader_desc {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1rem;
+}
+
+.hader_desc svg {
+    width: 30px;
+}
+/* Header end */
