@@ -1,3 +1,4 @@
+@import url(responsive.css);
 /* font-family: 'Montserrat', sans-serif;
 font-family: 'Playfair Display', serif;
 */
@@ -23,6 +24,7 @@ h1, h2, h3 {
     width: 980px;
     margin: auto;
     max-width: 100%;
+    padding: 0 1rem;
 }
 
 .hader_desc p {
