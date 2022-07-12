@@ -68,4 +68,46 @@ header#header {
     font-style: italic;
     margin: 1rem 0;
 }
+
+.ingreTime_content {
+    width: 550px;
+}
+
+.ingredients_part {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4rem;
+}
+.ingreTime_content input,label {
+    margin: 1rem 0;
+}
+
+.ingreTime_content input {
+    margin-right: .5rem;
+    height: 25px;
+    width: 18px;
+}
+.serving {
+    display: flex;
+    align-items: center;
+    margin: 2rem 1rem;
+    gap: 1rem;
+}
+
+.servings_part {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background: #fff;
+    height: max-content;
+    border-radius: .6rem;
+    padding: 1rem;
+    position: sticky;
+    top: 4rem;
+}
+
+.serving_icon span {
+    font-size: 2rem;
+}
+.orange-color {
+    color: #F2994A;
+}
 /* Ingredients and Time end */
