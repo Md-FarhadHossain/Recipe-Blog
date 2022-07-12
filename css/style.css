@@ -63,5 +63,9 @@ header#header {
 
 
 /* Ingredients and Time */
-
+.ingreTime_content p {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    margin: 1rem 0;
+}
 /* Ingredients and Time end */
