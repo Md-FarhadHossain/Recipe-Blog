@@ -110,4 +110,14 @@ header#header {
 .orange-color {
     color: #F2994A;
 }
+.servings_part_mobile {
+    display: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background: #fff;
+    height: max-content;
+    border-radius: .6rem;
+    padding: 1rem;
+    position: sticky;
+    top: 4rem;
+}
 /* Ingredients and Time end */

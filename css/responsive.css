@@ -20,3 +20,28 @@
 }
 /* Hero image end */
 
+
+
+/* ingredients */
+@media screen and (max-width: 840px) {
+    .servings_part {
+        display: none;
+    }
+    .servings_part_mobile {
+        display: flex !important;
+        box-shadow: none !important;
+        position: unset !important;
+        flex-wrap: wrap;
+    }
+    .ingredients_part {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 1rem !important;
+    }
+    .ingreTime_content {
+        width: 100% !important;
+    }
+    
+
+}
+/* ingredients end */
